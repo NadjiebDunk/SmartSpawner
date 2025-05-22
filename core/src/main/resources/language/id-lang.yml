@@ -1,0 +1,103 @@
+#---------------------------------------------------
+#                 Number Formatting
+#---------------------------------------------------
+# Controls how large numbers are displayed in-game
+#---------------------------------------------------
+format_number:
+  thousand: "%s%K"    # Example: 5000 → 5K
+  million: "%s%M"     # Example: 2000000 → 2M
+  billion: "%s%B"     # Example: 1500000000 → 1.5B
+  trillion: "%s%T"    # Example: 1000000000000 → 1T
+  default: "%s%"      # Fallback format when no other rule matches
+
+#---------------------------------------------------
+#                 Mob Display Names
+#---------------------------------------------------
+# Defines how mob names appear in spawner GUIs, items, holograms and messages
+#---------------------------------------------------
+mob_names:
+  # Passive Mobs
+  #-------------------------
+  ALLAY: "Allay"
+  ARMADILLO: "Armadillo"
+  AXOLOTL: "Axolotl"
+  BAT: "Kelelawar"
+  BEE: "Lebah"
+  CAMEL: "Unta"
+  CAT: "Kucing"
+  CHICKEN: "Ayam"
+  COD: "Ikan Cod"
+  COW: "Sapi"
+  DOLPHIN: "Lumba_Lumba"
+  DONKEY: "Keledai"
+  FOX: "Rubah"
+  FROG: "Katak"
+  GLOW_SQUID: "Cumi-cumi Bercahaya"
+  GOAT: "Kambing"
+  HORSE: "Kuda"
+  IRON_GOLEM: "Golem Besi"
+  LLAMA: "Llama"
+  MOOSHROOM: "jamur"
+  MUSHROOM_COW: "Jamur" # Fallback for 1.20 version compatibility
+  MULE: "Bagal"
+  OCELOT: "Oselot" 
+  PANDA: "Panda"
+  PARROT: "Burung beo"
+  PIG: "Babi"
+  POLAR_BEAR: "Beruang kutub"
+  PUFFERFISH: "Ikan buntal"
+  RABBIT: "Kelinci"
+  SALMON: "Ikan salmon"
+  SHEEP: "Domba"
+  SNIFFER: "Pencium"
+  SNOW_GOLEM: "Golem Salju"
+  SNOWMAN: "Golem Salju" # Fallback for 1.20 version compatibility
+  SQUID: "Cumi-cumi"
+  STRIDER: "Pelari cepat"
+  TADPOLE: "Kecebong"
+  TRADER_LLAMA: "Pedagang Llama"
+  TROPICAL_FISH: "Ikan Tropis"
+  TURTLE: "Penyu"
+  VILLAGER: "Orang desa"
+  WANDERING_TRADER: "Pedagang Pengembara"
+  WOLF: "Serigala"
+
+  # Hostile Mobs
+  #-------------------------
+  BLAZE: "Blaze"
+  BOGGED: "Terjebak"
+  BREEZE: "Angin Sepoi-sepoi"
+  CAVE_SPIDER: "Laba-laba Gua"
+  CREEPER: "Creeper"
+  DROWNED: "Mayat Hidup Air"
+  ELDER_GUARDIAN: "Elder Guardian"
+  ENDERMAN: "Enderman"
+  ENDERMITE: "Endermite"
+  EVOKER: "Pemanggilr"
+  GHAST: "Ghast"
+  GUARDIAN: "Guardian"
+  HOGLIN: "Hoglin"
+  HUSK: "Zombi Kering"
+  MAGMA_CUBE: "Kubus Magma"
+  PHANTOM: "Hantu"
+  PIGLIN: "Piglin"
+  PIGLIN_BRUTE: "Piglik Brutal"
+  PILLAGER: "Penjarah"
+  RAVAGER: "Penghancur"
+  SHULKER: "Shulker"
+  SILVERFISH: "Gegat"
+  SKELETON: "Kerangka"
+  SKELETON_HORSE: "Kuda Kerangka"
+  SLIME: "Lendir"
+  SPIDER: "laba-laba"
+  STRAY: "Kerangka Beku"
+  VEX: "Vex"
+  VINDICATOR: "Pembalas"
+  WARDEN: "Pengawas" #or Sipir(Warden)
+  WITCH: "Witch"
+  WITHER_SKELETON: "Kerangka Wither"
+  ZOGLIN: "Zoglin"
+  ZOMBIE: "Zombi"
+  ZOMBIE_HORSE: "Kuda Zombi"
+  ZOMBIE_VILLAGER: "Zombie Penduduk Desa"
+  ZOMBIFIED_PIGLIN: "Babi Zombifikasi"
